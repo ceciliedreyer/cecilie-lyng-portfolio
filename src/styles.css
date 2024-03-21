@@ -84,6 +84,11 @@ body {
   text-decoration: none;
 }
 
+.project-title {
+  font-size: 80px;
+  font-weight: 700;
+}
+
 .header {
   margin: 15px 0px;
   padding-left: 20px;
@@ -102,12 +107,12 @@ body {
   font-weight: 400;
 }
 
-a {
+.nav-item a {
   text-decoration: none;
   color: var(--font-color) !important;
 }
 
-a:hover {
+.nav-item a:hover {
   text-decoration: underline;
 }
 
@@ -129,6 +134,14 @@ a:hover {
     height: auto;
     text-align: left;
     margin-left: 20px;
+    padding-top: 0;
+  }
+
+  .project-title {
+    font-size: 55px;
+    line-height: 1;
+    padding: 10px 5px;
+    height: 100%;
   }
 
   body {
