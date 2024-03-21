@@ -2,6 +2,7 @@
   --header-font: "Montserrat", sans-serif;
   --standard-font: "Montserrat", sans-serif;
   --primary-color: #405160;
+  --font-color: white;
 }
 
 h1,
@@ -11,16 +12,17 @@ h4,
 h5,
 h6 {
   font-family: var(--header-font);
-  color: white;
+  color: var(--font-color);
 }
 
 p {
   font-family: var(--standard-font);
-  color: white;
+  color: var(--font-color);
 }
 
 body {
-  background: var(--primary-color);
+  background-image: url(../img/color\ background.png);
+  background-size: cover;
 }
 
 .section-left {
@@ -78,7 +80,7 @@ body {
   padding-right: 29.1875px;
   font-size: 130px;
   font-weight: 300;
-  color: white;
+  color: var(--font-color);
   text-decoration: none;
 }
 
@@ -89,18 +91,18 @@ body {
 
 .header h1 {
   font-size: 15px;
-  color: white;
+  color: var(--font-color);
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .description {
   padding-left: 20px;
   font-size: 13px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 a {
   text-decoration: none;
-  color: white !important;
+  color: var(--font-color) !important;
 }
