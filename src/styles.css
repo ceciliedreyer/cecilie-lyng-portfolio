@@ -116,6 +116,15 @@ body {
   text-decoration: underline;
 }
 
+.about-headline {
+  font-size: 130px;
+  padding-top: 60px;
+}
+.profile-img {
+  max-width: 100%;
+  padding: 40px 40px;
+}
+
 @media (max-width: 800px) {
   .section-left {
     flex-direction: row;
@@ -142,6 +151,30 @@ body {
     line-height: 1;
     padding: 10px 5px;
     height: 100%;
+  }
+
+  .about-headline {
+    font-size: 120px;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  .name-headline {
+    padding: 10px;
+  }
+  .profile-img {
+    max-width: 100%;
+    padding: 40px 40px;
+  }
+
+  .contact-btn {
+    margin: 10px !important;
   }
 
   body {
