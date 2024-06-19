@@ -15,9 +15,14 @@ h6 {
   color: var(--font-color);
 }
 
+h5 {
+  padding: 20px;
+}
+
 p {
   font-family: var(--standard-font);
   color: var(--font-color);
+  font-size: 16;
 }
 
 body {
